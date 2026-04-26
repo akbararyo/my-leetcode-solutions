@@ -21,7 +21,7 @@ Each folder includes:
 |---|-------|------------|----------|
 | 1 | [Two Sum](./easy/1-two-sum/README.md) | Easy | [solution.cpp](./easy/1-two-sum/1-two-sum-solution.cpp) [solution.py](./easy/1-two-sum/1-two-sum-solution.py) |
 | 2 | [Add Two Numbers](./med/2-add-two-numbers/README.md) | Medium | [solution.py](./med/2-add-two-numbers/2-add-two-numbers-solution.py) |
-| 3 | [Longest Substring Without Repeating Characters](./med/3-longest-substring/README.md) | Medium | [solution.py](./med/3-longest-substring/3-longest-substring-solution.py) |
+| 3 | [Longest Substring Without Repeating Characters](./med/3-longest-substring/README.md) | Medium | [solution.py](./med/3-longest-substring-without-repeating-characters/3-longest-substring-without-repeating-characters-solution.py) |
 | ... | ... | ... | ... |
 
 ---
