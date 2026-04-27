@@ -1,60 +1,52 @@
-# 4 Longest Substring Without Repeating Characters
+# Median of Two Sorted Arrays
 
-**Link:** [LeetCode Problem 3](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+**Link:** [LeetCode Problem 4](https://leetcode.com/problems/median-of-two-sorted-arrays)
 
 ## Problem
 
-Given a string `s`, find the length of the **longest substring** without duplicate characters.
+Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
+
+The overall run time complexity should be **O(log (m+n))**.
 
 ## Examples
 
 ### Example 1
 
-**Input:** `s = "abcabcbb"`
+**Input:** `nums1 = [1,3]`, `nums2 = [2]`
 
-**Output:** `3`
+**Output:** `2.00000`
 
-**Explanation:** The answer is `"abc"`, with the length of 3. Note that `"bca"` and `"cab"` are also correct answers.
+**Explanation:** merged array = `[1,2,3]` and median is `2`.
 
 ### Example 2
 
-**Input:** `s = "bbbbb"`
+**Input:** `nums1 = [1,2]`, `nums2 = [3,4]`
 
-**Output:** `1`
+**Output:** `2.50000`
 
-**Explanation:** The answer is `"b"`, with the length of 1.
-
-### Example 3
-
-**Input:** `s = "pwwkew"`
-
-**Output:** `3`
-
-**Explanation:** The answer is `"wke"`, with the length of 3. Notice that the answer must be a substring, `"pwke"` is a subsequence and not a substring.
+**Explanation:** merged array = `[1,2,3,4]` and median is `(2 + 3) / 2 = 2.5`.
 
 ## Constraints
 
-- `0 <= s.length <= 5 * 10^4`
-- `s` consists of English letters, digits, symbols and spaces.
-
-## Test Cases to Consider
-
-- `" "` (single space)
-- `"dvdf"`
-- `"ckilbkd"`
-- `"tmmzuxt"`
-
-## Notes
-
-- The answer must be a **substring** (contiguous), not a subsequence.
-- The maximum string size is at most 5 × 10⁴.
-- Brute force approaches may not pass due to time constraints.
+- `nums1.length == m`
+- `nums2.length == n`
+- `0 <= m <= 1000`
+- `0 <= n <= 1000`
+- `1 <= m + n <= 2000`
+- `-10^6 <= nums1[i], nums2[i] <= 10^6`
 
 ## Acceptance
 
-- **Accepted:** 9,382,740 / 24.1M
-- **Acceptance Rate:** 38.9%
+- **Accepted:** 4,217,468 / 9.1M
+- **Acceptance Rate:** 46.4%
 
 ## Companies
 
 This problem is frequently asked by multiple companies (refer to LeetCode for current list).
+
+## Notes
+
+- The expected time complexity is **O(log(m+n))**.
+- You cannot simply merge the arrays first (that would be O(m+n)).
+- Both arrays are already sorted.
+- Empty arrays are possible in test cases (e.g., `nums1 = []`, `nums2 = [1]`).
