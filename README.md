@@ -8,10 +8,10 @@ Each folder includes:
 ---
 
 ## Progress Overview
-- **Total Problems Solved:** 2  
+- **Total Problems Solved:** 4  
 - **Easy:** 1  
-- **Medium:** 1 
-- **Hard:** 0  
+- **Medium:** 2 
+- **Hard:** 1  
 
 ---
 
